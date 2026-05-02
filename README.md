@@ -19,5 +19,5 @@ La idea era simular una gravedad propia del planeta, es decir, que la fuerza sie
 ### Explicación
 - El planeta tiene una masa grande y no se mueve
 - El jugador tiene un rigidbody normal
-- En cada `FixedUpdate()` calculo la fuerza gravitatoria usando una versión ajustada de la fórmula real: F = G * (m1 * m2) / distancia²
+- En cada FixedUpdate calculo la fuerza gravitatoria usando una versión ajustada de la fórmula real: F = G * (m1 * m2) / distancia²
 - Además, le doy al jugador una velocidad lateral para que empiece a orbitar en vez de que simpplemente se quede quieto en un sitio
