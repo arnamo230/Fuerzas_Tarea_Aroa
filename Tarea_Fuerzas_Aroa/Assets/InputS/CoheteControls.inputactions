@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "CoheteControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "52d0b0a9-01e7-4807-93d7-caca71d77c6b",
+            "actions": [
+                {
+                    "name": "Despegar",
+                    "type": "Button",
+                    "id": "723c0fd6-40d8-4f89-8992-e4d48abb37ed",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3a12db1e-64a6-4f37-ad0b-d607fcedb53b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Despegar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
